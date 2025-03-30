@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaffff;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.delcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.delcontainer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.namebx {
+    font-size: 16px;
+}
+
+.delcontainer select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.logout{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout:hover {
+    background-color: #45a049;
+}
+
+.logout1{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.logout1:hover {
+    background-color: rgb(206, 57, 57);
+}
+
+a.logcontainer {
+    background-color: #999999; 
+    color: white;
+    border-radius: 5px;
+  }

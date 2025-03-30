@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #375628;
+  background-image: url('D:\react\mygame\src\images\card.jpg');
+}
+
+.king, .queen, .jack, .ace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 300px;
+}
+
+.king .Card, .queen .Card, .jack .Card, .ace .Card {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.king .Card {
+  color: #000000; 
+}
+
+.queen .Card {
+  color: #000; 
+}
+
+.jack .Card {
+  color: #000000; 
+}
+
+.ace .Card {
+  color: #000000; 
+}
+.img {
+  padding: 16px;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin: 8px 0;
+  color: #000000;
+}
